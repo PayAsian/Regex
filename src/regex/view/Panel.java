@@ -34,5 +34,31 @@ public class Panel extends JPanel
 		LabelThree = new JLabel("");
 		LabelFour = new JLabel("");
 		Button = new JButton("");
+		
+		setupRegexDisplay();
+		setupRegexPanel();
+		setupRegexLayout();
+		setupRegexListeners();
 	}
+	
+	private void setupRegexDisplay()
+	{
+		
+	}
+	
+	private void setupRegexPanel()
+	{
+		
+	}
+	
+	private void setupRegexLayout()
+	{
+		
+	}
+	
+	private void setupRegexListeners()
+	{
+		
+	}
+			
 }
