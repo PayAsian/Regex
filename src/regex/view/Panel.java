@@ -2,8 +2,6 @@ package regex.view;
 
 import regex.controller.*;
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import javax.swing.JPanel;
 
 public class Panel extends JPanel
@@ -38,7 +36,6 @@ public class Panel extends JPanel
 		setupRegexDisplay();
 		setupRegexPanel();
 		setupRegexLayout();
-		setupRegexListeners();
 	}
 	
 	private void setupRegexDisplay()
@@ -56,9 +53,4 @@ public class Panel extends JPanel
 		
 	}
 	
-	private void setupRegexListeners()
-	{
-		
-	}
-			
 }
