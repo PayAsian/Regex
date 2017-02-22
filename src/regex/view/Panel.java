@@ -1,0 +1,38 @@
+package regex.view;
+
+import regex.controller.*;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JPanel;
+
+public class Panel extends JPanel
+{
+	private Controller baseController;
+	private SpringLayout baseLayout;
+	private JTextArea DisplayOne;
+	private JTextArea DisplayTwo;
+	private JTextArea DisplayThree;
+	private JTextArea DisplayFour;
+	private JLabel LabelOne;
+	private JLabel LabelTwo;
+	private JLabel LabelThree;
+	private JLabel LabelFour;
+	private JButton Button;
+	
+	public Panel(Controller baseController)
+	{
+		super();
+		this.baseController = baseController;
+		baseLayout = new SpringLayout();
+		DisplayOne = new JTextArea(25,25);
+		DisplayTwo = new JTextArea(25,25);
+		DisplayThree = new JTextArea(25,25);
+		DisplayFour = new JTextArea(25,25);
+		LabelOne = new JLabel("");
+		LabelTwo = new JLabel("");
+		LabelThree = new JLabel("");
+		LabelFour = new JLabel("");
+		Button = new JButton("");
+	}
+}
