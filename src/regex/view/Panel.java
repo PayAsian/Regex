@@ -27,11 +27,11 @@ public class Panel extends JPanel
 		DisplayTwo = new JTextArea(25,25);
 		DisplayThree = new JTextArea(25,25);
 		DisplayFour = new JTextArea(25,25);
-		LabelOne = new JLabel("");
-		LabelTwo = new JLabel("");
-		LabelThree = new JLabel("");
-		LabelFour = new JLabel("");
-		Button = new JButton("");
+		LabelOne = new JLabel("First Name");
+		LabelTwo = new JLabel("Last Name");
+		LabelThree = new JLabel("Phone Number");
+		LabelFour = new JLabel("Email");
+		Button = new JButton("Submit");
 		
 		setupRegexDisplay();
 		setupRegexPanel();
@@ -40,6 +40,10 @@ public class Panel extends JPanel
 	
 	private void setupRegexDisplay()
 	{
+		DisplayOne.setEditable(false);
+		DisplayTwo.setEditable(false);
+		DisplayThree.setEditable(false);
+		DisplayFour.setEditable(false);
 		
 	}
 	

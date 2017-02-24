@@ -4,6 +4,7 @@ import regex.controller.*;
 import javax.swing.JFrame;
 import java.awt.Dimension;
 
+
 public class Frame extends JFrame
 {
 	private Controller baseController;
