@@ -1,5 +1,6 @@
 package regex.model;
 
-public class Email {
+public class Email 
+{
 
 }
